@@ -1,0 +1,55 @@
+.chart-container {
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+}
+
+/* .chart-container:hover .chart-amount {
+  cursor: pointer;
+  opacity: 1;
+} */
+
+.chart-day {
+  display: block;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: var(--span-brown);
+}
+
+.chart-amount {
+  opacity: 0;
+  width: 50px;
+  height: 40px;
+  background-color: rgb(64, 67, 66);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.chart-graph {
+  width: 40px;
+  border-radius: 3px;
+  background-color: var(--main-orange);
+  margin: 0;
+}
+
+.chart-graph:hover {
+  filter: brightness(125%);
+  cursor: pointer;
+}
+.chart-graph::before {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  right: -10px;
+  top: -45px;
+  color: white;
+  background-color: rgb(64, 67, 66);
+  content: attr(data-content);
+  width: 60px;
+  height: 40px;
+}

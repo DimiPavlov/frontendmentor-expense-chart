@@ -1,0 +1,18 @@
+.balance-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-orange);
+  border-radius: 10px;
+  padding: 25px 25px;
+}
+
+.balance-text span,
+.balance-text h2 {
+  color: #fff;
+}
+
+.balance-text h3 {
+  margin-top: 4px;
+}
