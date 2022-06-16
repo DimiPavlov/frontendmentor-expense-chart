@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/frontendmentor-expense-chart/static/css/main.1e90dc76.css",
+    "main.js": "/frontendmentor-expense-chart/static/js/main.7fa5b1b4.js",
+    "index.html": "/frontendmentor-expense-chart/index.html",
+    "static/media/logo.svg": "/frontendmentor-expense-chart/static/media/logo.99d5b9138a1a64cc6858cdac9a9d3bd4.svg",
+    "main.1e90dc76.css.map": "/frontendmentor-expense-chart/static/css/main.1e90dc76.css.map",
+    "main.7fa5b1b4.js.map": "/frontendmentor-expense-chart/static/js/main.7fa5b1b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e90dc76.css",
+    "static/js/main.7fa5b1b4.js"
+  ]
+}
